@@ -1,4 +1,4 @@
-# _Pierres bakery_
+# _Pierres Bakery_
 
 #### _{Brief description of application}_
 

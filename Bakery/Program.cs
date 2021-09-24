@@ -8,8 +8,17 @@ namespace ProjectTest
   {
     static void Main()
     {
+        Console.Clear();
         Console.WriteLine("~~~~~~~~Pierre's Bakery~~~~~~~~~");
         Console.WriteLine("Welcome to the bakery!");
+        Console.WriteLine(" ");
+        Console.WriteLine("---------MENU--------");
+        Console.WriteLine("Loaf of Bread: $5");
+        Console.WriteLine("~~~~~SALE: Buy 3 for the price of 2!");
+        Console.WriteLine("Pastry: $2");
+        Console.WriteLine("~~~~~SALE: Buy 3 for $5!");
+        Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        Console.WriteLine(" ");
         Console.WriteLine("Would you like to start an order?");
         Console.WriteLine("Y/N");
         string action = Console.ReadLine();
