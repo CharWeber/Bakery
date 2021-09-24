@@ -28,7 +28,10 @@ namespace Bakery.TestTools
     [TestMethod]
     public void Bread_returnBreadPriceFourLoaves_Int()
     {
-      
+      Bread testOrder = new Bread();
+      Bread.CalcBread(4);
+      int result = Bread.Price;
+      Assert.AreEqual(15, result);
     }
   }
 }
