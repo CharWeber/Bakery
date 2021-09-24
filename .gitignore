@@ -1,0 +1,6 @@
+.DS_store
+dist/
+coverage/
+.env
+bin/
+obj/
