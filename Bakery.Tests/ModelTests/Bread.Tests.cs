@@ -33,5 +33,14 @@ namespace Bakery.TestTools
       int result = Bread.Price;
       Assert.AreEqual(15, result);
     }
+    //Test #4 for Posterity
+    [TestMethod]
+    public void Bread_ReturnBreadPriceTenLoaves_Int()
+    {
+      Bread testOrder = new Bread();
+      Bread.CalcBread(10);
+      int result = Bread.Price;
+      Assert.AreEqual(35, result);
+    }  
   }
 }
