@@ -1,4 +1,4 @@
-# _C# template Repo_
+# _Pierres bakery_
 
 #### _{Brief description of application}_
 
