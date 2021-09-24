@@ -24,5 +24,11 @@ namespace Bakery.TestTools
       int result = Bread.Price;
       Assert.AreEqual(5, result);
     }
+    //Test #3
+    [TestMethod]
+    public void Bread_returnBreadPriceFourLoaves_Int()
+    {
+      
+    }
   }
 }
