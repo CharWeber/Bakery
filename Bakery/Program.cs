@@ -9,6 +9,23 @@ namespace ProjectTest
     static void Main()
     {
         Console.Clear();
+        Console.WriteLine("   ____                                    ?~~bL");
+        Console.WriteLine("  z@~ b                                    |  `U,");
+        Console.WriteLine(" ]@[  |                                   ]'  z@'");
+        Console.WriteLine(" d@~' `|, .__     _----L___----, __, .  _t'   `@j");
+        Console.WriteLine("`@L_,   '-~ `--'~-a,           `C.  ~","O_    ._`@");
+        Console.WriteLine("q@~'   ]P       ]@[            `Y=,   `H+z_  `a@");
+        Console.WriteLine("`@L  _z@        d@               Ya     `-@b,_a'");
+        Console.WriteLine("  `-@d@a'       )@[               `VL      `a@@'");
+        Console.WriteLine("    aa~'   ],  .a@'                qqL  ), ./~");
+        Console.WriteLine("     @@_  _z~  _d@[                 .V@  .L_d'");
+        Console.WriteLine("     '~@@@'  ]@@@'        __      )@n@bza@-'");
+        Console.WriteLine("       `-@zzz@@@L        )@@z     ]@@=%-'");
+        Console.WriteLine("          ~~@@@@@bz_    _a@@@@z___a@K");
+        Console.WriteLine("             '~-@@@@@@@@@@@@@@@@@@~'");
+        Console.WriteLine("                `~~~-@~~-@@~~~~~'");
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
         Console.WriteLine("~~~~~~~~Pierre's Bakery~~~~~~~~~");
         Console.WriteLine("Welcome to the bakery!");
         Console.WriteLine(" ");
@@ -84,7 +101,7 @@ namespace ProjectTest
         Console.WriteLine("Order:");
         Console.WriteLine($"Loaves: {breadQty}------------${breadPrice}");
         Console.WriteLine($"Pastries: {pastryQty}-------------${pastryPrice}");
-        Console.WriteLine($"total Price-------------${totalPrice}");
+        Console.WriteLine($"Total Price-------------${totalPrice}");
         Console.WriteLine("");
         Console.WriteLine("~~~~~~~~~~come again!~~~~~~~~~~");
       }
