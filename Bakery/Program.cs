@@ -72,6 +72,12 @@ namespace ProjectTest
           Console.WriteLine("alright then, lets calculate this");
           TotalPrice(breadOrder, pastryOrder);
         }
+        else
+        {
+        Console.WriteLine("sigh... Lets try again.");
+        Thread.Sleep(4000);
+        NewOrder();
+        }
       }
       else
       {
