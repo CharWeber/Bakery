@@ -53,4 +53,4 @@ If you run into issues or bugs with this web application, please contact one of 
 
 ## Contact Information
 
-_charlestweber@gmail.com_
+_charlesweber@gmail.com_
