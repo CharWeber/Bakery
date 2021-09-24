@@ -10,14 +10,17 @@ namespace Bakery.Models
 
     public static void CalcPastry(int amt)
     {
-      if (amt >=3)
+      if (amt >= 3)
       {
         Pastries = amt % 3;
-        DiscountedPastries = (amt - pastries)/3;
-        Price = (Pastries * 2) + (DiscountedPastries * 5)
+        DiscountedPastries = (amt - Pastries)/3;
+        Price = (Pastries * 2) + (DiscountedPastries * 5);
       }
+      else
+      {
       Pastries = amt;
       Price = Pastries * 2;
+      }
     }
   }
 }
