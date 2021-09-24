@@ -12,7 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This console application was designed for a user to simulate a bakery type experience. The User can order bread or pastry en masse and the program will calculate the price based on the "daily sales"_
 
 <hr>
 
@@ -24,16 +24,16 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 1. [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) this repository from GitHub to your local machine.
 
-        $ git clone {github-repository-URL}
+        $ git clone https://github.com/CharWeber/Bakery
 
 2. Open the new directory.
 
-        $ cd {Root Directory}
+        $ cd Bakery
 
 3. Install the [.NET framework](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net50).
 
 
-4. Open a new terminal instance in the Project.Solution/Project directory.
+4. Open a new terminal instance in the Bakery/Bakery directory.
 
 5. Type "dotnet run" in the terminal.
 
@@ -49,6 +49,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 ## License
 
 MIT 2021
+
 If you run into issues or bugs with this web application, please contact one of the developers below. Thank you!
 
 ## Contact Information
