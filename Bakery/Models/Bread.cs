@@ -5,14 +5,14 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    public static int BreadOrdered {get;set;}
-    public static int BreadPrice {get;set;}
-    public static int BreadDiscountLoaves {get; set;}
-    public static int BreadNormalPrice {get;set;}
 
-  public int calcBread()
-  {
-    return 5;
-  }
+    public static int Loaves {get; set;}
+    public static int Price {get; set;}
+
+    public static void CalcBread(int amt)
+    {
+      Loaves = amt;
+      Price = amt * 5;
+    }
   }
 }
