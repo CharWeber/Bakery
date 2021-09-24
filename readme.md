@@ -43,8 +43,7 @@ _This console application was designed for a user to simulate a bakery type expe
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _if a user just throws a bunch of jargon in the command line instead of following prompts its likely they will run into some exception handling that will block the application from running properly._
 
 ## License
 
