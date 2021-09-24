@@ -12,8 +12,8 @@ namespace Bakery.TestTools
     [TestMethod]
     public void Bread_createInstanceOfBread_True()
     {
-      Bread testOrder = new Bread
-      Assert.AreEqual(testOrder.GetType(), typeof(Bread))
+      Bread testOrder = new Bread();
+      Assert.AreEqual(testOrder.GetType(), typeof(Bread));
     }
   }
 }
